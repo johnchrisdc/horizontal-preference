@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+        android:key="color1"
+        android:title="Sample"
+        android:summary="Imma horizontal"
+        app:iconSpaceReserved="false"
+        />
+
+    <Preference
+        android:title="Preference"
+        android:summary="Imma horizontal"/>
+
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+        android:key="color1"
+        android:title="Sample"
+        android:summary="Imma horizontal"
+        app:iconSpaceReserved="false"
+        />
+
+    <CheckBoxPreference
+        android:title="CheckBoxPreference"
+        android:summary="Imma horizontal"
+        app:iconSpaceReserved="false"/>
+
+    <EditTextPreference
+        android:title="EditTextPreference"
+        android:summary="Imma horizontal"
+        app:iconSpaceReserved="false"/>
+
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+        android:key="color1"
+        android:title="Sample"
+        android:summary="Imma horizontal"
+        app:iconSpaceReserved="false"
+        />
+</PreferenceScreen>
